@@ -12,7 +12,7 @@ The algorithm is as follows:
 1. Initialize a random configuration of spins on an $L \times L$ lattice
 2. Choose a spin randomly on the lattice
 3. Calculate the change in energy, $\delta E$, of the system in flipping the spin
-4. Flip the spin with the probability used by the Metropolis algorithm, i.e. $P_{flip} = min(1,e^{-\delta E/kT}$
+4. Flip the spin with the probability used by the Metropolis algorithm, i.e. $P_{flip} = min(1,e^{-\delta E/kT})$
 5. Go to 2
 
 This algorithm should generate a sequence of configurations, with each configuration occuring at the probability given by the Boltzmann distribution. 
