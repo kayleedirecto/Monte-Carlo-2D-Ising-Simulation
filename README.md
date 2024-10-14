@@ -9,7 +9,12 @@ The 2D Ising model is a great excercise for a computational physicists to gain h
 The ideo of this simulation is to use a Monte Carlo algorithm to set up a random walk which will sample different configurations of the system, such that the configurations occur with the probability given by the Boltzmann distribution. 
 
 The algorithm is as follows: 
-1. sdfsfd
+1. Initialize a random configuration of spins on an $L \times L$ lattice
+2. Choose a spin randomly on the lattice
+3. Calculate the change in energy, $\delta E$, of the system in flipping the spin
+4. Flip the spin with the probability used by the Metropolis algorithm, i.e. $P_{flip} = min(1,e^{-\delta E/kT}$
+5. Go to 2
 
+This algorithm should generate a sequence of configurations, with each configuration occuring at the probability given by the Boltzmann distribution. 
 
 
