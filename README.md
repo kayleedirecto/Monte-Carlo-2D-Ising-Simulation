@@ -9,7 +9,7 @@ The 2D Ising model is a great excercise for a computational physicists to gain h
 The ideo of this simulation is to use a Monte Carlo algorithm to set up a random walk which will sample different configurations of the system, such that the configurations occur with the probability given by the Boltzmann distribution. 
 
 The algorithm is as follows: 
-\newline 1. 
+1. sdfsfd
 
 
 
