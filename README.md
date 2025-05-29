@@ -15,4 +15,4 @@ This algorithm should generate a sequence of configurations, with each configura
 
 ## Results 
 
-As an example, let's take $T_c = 2.269 k_B /J$
+As an example, let's take $T_c = 2.269 k_B/J$. 
