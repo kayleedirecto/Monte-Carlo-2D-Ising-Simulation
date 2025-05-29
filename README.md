@@ -14,3 +14,5 @@ The algorithm is as follows:
 This algorithm should generate a sequence of configurations, with each configuration occuring at the probability given by the Boltzmann distribution. 
 
 ## Results 
+
+As an example, let's take $T_c = 2.269 k_B /J$
