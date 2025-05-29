@@ -23,7 +23,7 @@ As an example, let's take $T_c = 2.269 k_B/J$. We can create a histogram of the 
 
 At 2.45 $k_B/J$, above the critical temperature, we see the lattice is paramagnetic, i.e. the spins are randomly ordered. There is a 50% chance the magnetization will be -1 and 50% chance it will be +1, so it makes sense that the average magnetization of the sample is centered around 0. 
 
-At 2.26 $k_B/J$, just below the critical temperature, the lattice transitions to ferromagnetic, i.e. all spin up or spin down. In the specific simulation I've shown, we see the case where the majority of the samples magnetizations are close to entirely spin up, i.e. very close to 1. Other times I run this simulation, sometimes I get majority spin down, as shown below: 
+At 2.26 $k_B/J$, just below the critical temperature, the lattice transitions to ferromagnetic, i.e. all spin up or spin down. In the specific simulation I've shown, we see the case where the majority of the sampled magnetizations are close to entirely spin up, i.e. very close to 1. Other times I run this simulation, sometimes I get majority spin down, as shown below: 
 
 <img width="400" alt="Screenshot 2025-05-29 at 4 39 54 PM" src="https://github.com/user-attachments/assets/c0d3ba8c-da04-4ad0-8e13-18ad8516a43a" />
 
