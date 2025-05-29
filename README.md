@@ -15,6 +15,8 @@ This algorithm should generate a sequence of configurations, with each configura
 
 ## The Results 
 
+The main simulation can be found in SQIsing.cpp.
+
 As an example, let's take $T_c = 2.269 k_B/J$. We can create a histogram of the observed magnetization (sum of every spin on the lattice) at temperatures 2.26 $k_B/J$ and 2.45 $k_B/J$, as shown below. 
 
 <img width="400" alt="Screenshot 2025-05-29 at 4 30 57 PM" src="https://github.com/user-attachments/assets/8942ce4b-102e-4041-b819-2df4669ea921" />
