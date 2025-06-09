@@ -1,5 +1,15 @@
 # Monte Carlo 2D Ising Simulation 
 
+## The Repository Structure 
+```
+Monte-Carlo-2D-Ising-Simulation/
+├── BandStructureSpectroscopy.py              # Main simulation
+├── InterferometryTools.py                    # Functions used in main simulation 
+└── README.md                                 # You're here!
+```
+
+## The Overview 
+
 The 2D Ising model is a great excercise for a computational physicists to gain hands on experience with Monte Carlo simulations. The model describes a magnetic system composed of classical spins, $s_{i,j}$, on an $L$ $\times$ $L$ lattice, where each spin can either be spin up or spin down. At temperatures, $T$, above the critical temperature, $T_c$, the system is in a paramagnetic state, i.e. the spins are randomly ordered. At $T_c$, the system undergoes a phase transition, and at $T < T_c$, the system becomes ferromagnetic, i.e. the spins are all aligned in the same direction. 
 
 The ideo of this simulation is to use a Monte Carlo algorithm to set up a random walk which will sample different configurations of the system, such that the configurations occur with the probability given by the Boltzmann distribution. 
