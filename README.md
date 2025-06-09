@@ -3,9 +3,9 @@
 ## The Repository Structure 
 ```
 Monte-Carlo-2D-Ising-Simulation/
-├── BandStructureSpectroscopy.py              # Main simulation
-├── InterferometryTools.py                    # Functions used in main simulation 
-└── README.md                                 # You're here!
+├── MCvar.h            # Class used in main simulation 
+├── README.md          # You're here! 
+└── SQIsing.cpp        # The meat and potatoes 
 ```
 
 ## The Overview 
